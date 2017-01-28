@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="5"
+    android:columnCount="5"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:id="@+id/gl_earth_quake_list_row">
+    <TextView
+        android:id="@+id/tv_magnitude"
+        android:text="@string/magnitude"
+        android:layout_columnSpan="2"/>
+    <TextView
+        android:id="@+id/tv_magnitude_value"
+        android:layout_marginLeft="5dp"
+        android:hint="@string/magnitude"
+        android:layout_columnSpan="3"/>
+    <TextView
+        android:id="@+id/tv_place"
+        android:text="@string/place"
+        android:layout_columnSpan="2"/>
+    <TextView
+        android:id="@+id/tv_place_value"
+        android:hint="@string/place"
+        android:layout_marginLeft="5dp"
+        android:layout_columnSpan="3"/>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:text="@string/date"
+        android:layout_columnSpan="2"/>
+    <TextView
+        android:id="@+id/tv_date_value"
+        android:hint="@string/date"
+        android:layout_marginLeft="5dp"
+        android:layout_columnSpan="3"/>
+    <TextView
+        android:id="@+id/tv_coordinates"
+        android:text="@string/coordinates"
+        android:layout_columnSpan="2"/>
+    <TextView
+        android:id="@+id/tv_coordinates_value"
+        android:hint="@string/coordinates"
+        android:layout_marginLeft="5dp"
+        android:layout_columnSpan="3"/>
+    <TextView
+        android:id="@+id/tv_details"
+        android:text="@string/details"
+        android:layout_columnSpan="2"/>
+    <TextView
+        android:id="@+id/tv_details_value"
+        android:hint="@string/details"
+        android:layout_marginLeft="5dp"
+        android:layout_columnSpan="3"/>
+
+
+
+</GridLayout>

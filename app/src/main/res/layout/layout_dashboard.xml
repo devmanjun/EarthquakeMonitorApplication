@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.mvs.testapplication.fragment.DashBoardFragment">
+
+
+
+
+    <TextView
+        android:text="@string/Significant"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="@style/CustomFontColorTheme"
+        android:id="@+id/tv_significant"/>
+
+    <TextView
+        android:text="@string/plus4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="@style/CustomFontColorTheme"
+        android:id="@+id/tv_4plus" />
+
+    <TextView
+        android:text="@string/plus2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="@style/CustomFontColorTheme"
+        android:id="@+id/tv_2plus" />
+    <TextView
+        android:text="@string/plus1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="@style/CustomFontColorTheme"
+        android:id="@+id/tv_1plus" />
+    <TextView
+        android:text="@string/all"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="@style/CustomFontColorTheme"
+        android:id="@+id/tv_all" />
+</LinearLayout>
