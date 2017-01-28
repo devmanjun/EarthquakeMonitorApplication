@@ -24,7 +24,7 @@ import io.realm.RealmQuery;
 
 
 /**
- * Created by User on 1/25/2017.
+ *Shows different earthquake lists
  */
 
 public class EarthQuakeListFragment extends BaseFragment {

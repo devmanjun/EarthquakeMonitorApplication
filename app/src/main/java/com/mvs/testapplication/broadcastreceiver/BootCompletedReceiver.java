@@ -8,7 +8,7 @@ import com.mvs.testapplication.constants.AppConstants;
 import com.mvs.testapplication.services.EarthQuakeDownloadService;
 
 /**
- * Created by User on 1/28/2017.
+ *Will receive broadcast on boot complete
  */
 
 public class BootCompletedReceiver extends BroadcastReceiver {

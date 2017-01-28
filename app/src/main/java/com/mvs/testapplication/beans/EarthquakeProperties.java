@@ -3,7 +3,7 @@ package com.mvs.testapplication.beans;
 import io.realm.RealmObject;
 
 /**
- * Created by User on 1/23/2017.
+ *
  */
 
 public class EarthquakeProperties extends RealmObject{

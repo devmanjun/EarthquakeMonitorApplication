@@ -9,7 +9,7 @@ import com.mvs.testapplication.services.EarthQuakeDownloadService;
 import com.mvs.testapplication.utils.Utility;
 
 /**
- * Created by User on 1/27/2017.
+ *Alram receiver for background data fetch
  */
 
 public class AlarmReceiver extends BroadcastReceiver {

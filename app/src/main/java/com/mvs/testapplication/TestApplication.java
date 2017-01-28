@@ -8,7 +8,7 @@ import io.realm.Realm;
 import io.realm.RealmConfiguration;
 
 /**
- * Created by User on 1/24/2017.
+ *
  */
 
 public class TestApplication extends Application {

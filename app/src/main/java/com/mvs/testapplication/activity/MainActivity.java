@@ -1,20 +1,15 @@
 package com.mvs.testapplication.activity;
 
-import android.app.AlarmManager;
-import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.PersistableBundle;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.mvs.testapplication.R;
-import com.mvs.testapplication.broadcastreceiver.AlarmReceiver;
 import com.mvs.testapplication.constants.AppConstants;
 import com.mvs.testapplication.fragment.DashBoardFragment;
 import com.mvs.testapplication.fragment.EarthQuakeListFragment;

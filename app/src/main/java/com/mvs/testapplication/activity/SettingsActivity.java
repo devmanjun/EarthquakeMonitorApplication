@@ -17,6 +17,9 @@ import com.mvs.testapplication.broadcastreceiver.AlarmReceiver;
 import com.mvs.testapplication.constants.AppConstants;
 import com.mvs.testapplication.utils.Utility;
 
+/**
+ * Saves the threshold and data fetch interval
+ */
 public class SettingsActivity extends AppCompatActivity {
 
     private EditText threshHoldEdittext, dataFetchEditText;

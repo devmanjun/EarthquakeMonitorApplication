@@ -24,7 +24,7 @@ import io.realm.RealmQuery;
 import io.realm.RealmResults;
 
 /**
- * Created by User on 1/25/2017.
+ *Show the dasboard to the user
  */
 
 public class DashBoardFragment extends BaseFragment implements DownloadResultReceiver.Receiver, View.OnClickListener {

@@ -5,7 +5,7 @@ import android.os.Handler;
 import android.os.ResultReceiver;
 
 /**
- * Created by User on 1/24/2017.
+ * Resukt receiver for Intent service
  */
 
 public class DownloadResultReceiver extends ResultReceiver {

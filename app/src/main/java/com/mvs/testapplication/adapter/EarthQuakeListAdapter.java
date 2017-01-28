@@ -20,9 +20,7 @@ import java.util.ArrayList;
 
 import io.realm.RealmList;
 
-/**
- * Created by User on 1/26/2017.
- */
+
 
 public class EarthQuakeListAdapter extends ArrayAdapter {
     private Context mContext;

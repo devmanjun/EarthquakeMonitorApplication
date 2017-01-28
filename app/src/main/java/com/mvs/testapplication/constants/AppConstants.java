@@ -1,7 +1,7 @@
 package com.mvs.testapplication.constants;
 
 /**
- * Created by User on 1/23/2017.
+ *
  */
 
 public class AppConstants {

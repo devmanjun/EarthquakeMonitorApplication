@@ -39,7 +39,7 @@ import io.realm.RealmQuery;
 import io.realm.RealmResults;
 
 /**
- * Created by User on 1/24/2017.
+ * Intent service to download data from server in background.
  */
 
 public class EarthQuakeDownloadService extends IntentService {
